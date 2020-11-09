@@ -1,0 +1,35 @@
+{
+    "name": "zw8051",
+    "title": "8051 with Z-Wave",
+    "description": "Development for Z-Wave 8051 embedded systems",
+    "homepage": "https://andyb.scot",
+    "licence": "Apache-2.0",
+    "keywords": ["8051", "Z-Wave", "Z-Uno"],
+    "engines": {
+        "platormio": "^5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/andyb749/platform-zw8051.git"
+    },
+    "version": "0.0.1-alpha",
+    "frameworks":{
+        "arduino": {
+            "package": "framework-arduino-zuno",
+            "script": "builder/frameworks/arduino.py"
+        }
+    },
+    "packages": {
+        "toolchain-sdcc": {
+            "type": "toolchain",
+            "owner": "platformio",
+            "version": "~1.30804.10766"
+        },
+        "tool-zprog": {
+            "type": "uploader",
+            "optional": true,
+            "owner": "andyb749",
+            "version": ">=1.0.0"
+        }
+    }
+}

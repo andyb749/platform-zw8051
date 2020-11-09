@@ -1,0 +1,30 @@
+{
+  "build": {
+    "extra_flags": "-DZUNO",
+    "f_cpu": "16000000L",
+    "hwids": [
+      ["0x0658","0x0200"],
+      ["0x0658","0x0000"]
+    ],
+    "mcu": "zw8051"
+  },
+  "bootloader": {
+    "led_pin": "B7"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    ""
+  ],
+  "name": "Z-Uno",
+  "upload": {
+    "maximum_ram_size": 2048,
+    "maximum_size": 32256,
+    "protocol": "zprog",
+    "require_upload_port": true,
+    "speed": 115200
+  },
+  "url": "https://z-uno.z-wave.me/",
+  "vendor": "Z-Wave.Me"
+}

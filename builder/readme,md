@@ -1,0 +1,5 @@
+# Read Me
+
+main.py and size.py are taken from the intel_mcs51 platform builder directory and have been tweaked here
+to work with the z-uno.
+
