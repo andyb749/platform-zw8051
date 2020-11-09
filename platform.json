@@ -12,7 +12,7 @@
         "type": "git",
         "url": "https://github.com/andyb749/platform-zw8051.git"
     },
-    "version": "0.0.1-alpha",
+    "version": "0.0.2-alpha",
     "frameworks":{
         "arduino": {
             "package": "framework-arduino-zuno",

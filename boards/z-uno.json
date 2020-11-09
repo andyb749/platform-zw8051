@@ -15,7 +15,7 @@
     "arduino"
   ],
   "platforms": [
-    ""
+    "zw8051"
   ],
   "name": "Z-Uno",
   "upload": {
